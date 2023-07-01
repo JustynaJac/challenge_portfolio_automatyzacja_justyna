@@ -8,8 +8,8 @@ Jestem wniebowzięta na myśl o Dare IT Challenge na ścieżce QA: Wstęp do Tes
 
 Przygotujcie się, bo nadchodzi testowa superbohaterka! 💪😄
 
-## **Subtask 3** 
-wynik testu ze strony [GET ISTQB](https://github.com/JustynaJac/portfolio](http://getistqb.com/quiz-purpurowy/)http://getistqb.com/quiz-purpurowy/](http://getistqb.com/quiz-purpurowy/)http://getistqb.com/quiz-purpurowy) o nazwie *PURPUROWY*
+## **Subtask 4** 
+Wynik testu ze strony [GET ISTQB](https://github.com/JustynaJac/portfolio](http://getistqb.com/quiz-purpurowy/)http://getistqb.com/quiz-purpurowy/](http://getistqb.com/quiz-purpurowy/)http://getistqb.com/quiz-purpurowy) o nazwie *PURPUROWY*
 
 **11/14** 
 Almost ... :construction_worker:
