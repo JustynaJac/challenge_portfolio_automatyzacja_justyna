@@ -19,7 +19,7 @@ Almost ... :construction_worker:
 ## **Subtask 2** Wypisz wszystkie elementy znajdujące się na stronie, a następnie, pod każdym elementem znalezionym na stronie, wymień 3 działające selektory.
  **Elementy znajdujące się na stronie logowania: [Scouts-test](https://scouts-test.futbolkolektyw.pl/en/login?redirected=true)**
 
-:white_square_button: Pole wprowadzania nazwy użytkownika
+:white_square_button: Pole wprowadzania nazwy użytkownika  
   
 * //*[text()="Login"]
 
@@ -35,7 +35,7 @@ Almost ... :construction_worker:
 
 * input#login
 
-:white_square_button: Pole wprowadzania hasła
+:white_square_button: Pole wprowadzania hasła 
   
 * //*[text()="Password"]
 
@@ -49,7 +49,7 @@ Almost ... :construction_worker:
 
 * label#password-label
   
-:white_square_button: Przycisk "Zaloguj się"
+:white_square_button: Przycisk "Zaloguj się" 
 
 * //*[text()="Sign in"]
 
@@ -57,7 +57,9 @@ Almost ... :construction_worker:
 
 * form button
 
-:white_square_button: Link do odzyskiwania hasła
+* //*[@id="__next"]/form/div/div[2]/button/span[1]
+
+:white_square_button: Link do odzyskiwania hasła  
   
 * //*[@id="__next"]/form/div/div[1]/a
 
@@ -67,18 +69,22 @@ Almost ... :construction_worker:
 
 * form a
 
-:white_square_button: Zmiana języka strony
+:white_square_button: Zmiana języka strony  
   
 * //*[text()="English"]
 
 * //*[text()="Polish"]
 
 * div[role="button"][aria-haspopup="listbox"]
+
+* //*[@id="__next"]/form/div/div[2]/div
   
-:white_square_button: Nazwa strony
+:white_square_button: Nazwa strony 
 
 * //*[text()="Scouts Panel"]
 
 * //child::div/h5
 
 * h5.MuiTypography-h5
+
+* //*[@id="__next"]/form/div/div[1]/h5
