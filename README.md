@@ -9,7 +9,76 @@ Jestem wniebowzięta na myśl o Dare IT Challenge na ścieżce QA: Wstęp do Tes
 Przygotujcie się, bo nadchodzi testowa superbohaterka! 💪😄
 
 ## **Subtask 4** 
-Wynik testu ze strony [GET ISTQB](https://github.com/JustynaJac/portfolio](http://getistqb.com/quiz-purpurowy/)http://getistqb.com/quiz-purpurowy/](http://getistqb.com/quiz-purpurowy/)http://getistqb.com/quiz-purpurowy) o nazwie *PURPUROWY*
+Wynik testu ze strony [GET ISTQB](http://getistqb.com/quiz-purpurowy/) o nazwie *PURPUROWY*
 
 **11/14** 
 Almost ... :construction_worker:
+
+# **Task 2** 
+
+## **Subtask 2** Wypisz wszystkie elementy znajdujące się na stronie, a następnie, pod każdym elementem znalezionym na stronie, wymień 3 działające selektory.
+ **Elementy znajdujące się na stronie logowania: [Scouts-test](https://scouts-test.futbolkolektyw.pl/en/login?redirected=true)**
+
+:white_square_button: Pole wprowadzania nazwy użytkownika
+  
+* //*[text()="Login"]
+
+* input[name="login"]
+
+* input[type="text"]
+
+* //*[@id="login"]
+
+* //child::div/label
+
+* label#login-label
+
+* input#login
+
+:white_square_button: Pole wprowadzania hasła
+  
+* //*[text()="Password"]
+
+* input[name="password"]
+
+* input#password
+
+* //*[@id="password"]
+
+* //child::div/label
+
+* label#password-label
+  
+:white_square_button: Przycisk "Zaloguj się"
+
+* //*[text()="Sign in"]
+
+* //button[@type="submit"]
+
+* form button
+
+:white_square_button: Link do odzyskiwania hasła
+  
+* //*[@id="__next"]/form/div/div[1]/a
+
+* //*[text()="Remind password"]
+
+* //child::div/a
+
+* form a
+
+:white_square_button: Zmiana języka strony
+  
+* //*[text()="English"]
+
+* //*[text()="Polish"]
+
+* div[role="button"][aria-haspopup="listbox"]
+  
+:white_square_button: Nazwa strony
+
+* //*[text()="Scouts Panel"]
+
+* //child::div/h5
+
+* h5.MuiTypography-h5
