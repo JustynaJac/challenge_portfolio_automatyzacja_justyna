@@ -11,7 +11,3 @@ class Dashboard(BasePage):
     button_devteam_xpath =  "//*[text()='Dev team contact']"
     header_activity_xpath = "//h2[contains( @class,'MuiTypography-root')andcontains(@class,'MuiTypography-h5')and contains(@ class,'MuiTypography-gutterBottom')andtext()='Aktywnosć']"
     button_addplayer_xpath = "//a[@href='/pl/players/add']/button"
-    pass
-
-
-
