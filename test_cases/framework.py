@@ -9,7 +9,7 @@ class Test(unittest.TestCase):
     @classmethod
 
     def setUp(self):
-        driver_path = "C:/Users/justy/Documents/GitHub/challenge_portfolio_automatyzacja_justyna/drivers/"
+        driver_path = "C:/Users/justyna/Documents/GitHub/challenge_portfolio_automatyzacja_justyna/drivers/"
         os.chmod(driver_path, 755)
         self.driver_service = Service(executable_path=driver_path)
         self.driver = webdriver.Chrome(service=self.driver_service)
@@ -24,5 +24,27 @@ class Test(unittest.TestCase):
     def test_print_nice_words(self):
         print("WELL DONE!!!!!!!!!")
 
-    # Element of the first task: Try to search the Internet yourself how to get rid of the error:
-    # "DeprecationWarning: executable_path has been deprecated, please pass in a Service object
+class TestMediumPage(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        driver_path = "C:/Users/justy/Documents/GitHub/challenge_portfolio_automatyzacja_justyna/drivers/"
+        os.chmod(driver_path, 755)
+        cls.driver_service = Service(executable_path=driver_path)
+        cls.driver = webdriver.Chrome(service=cls.driver_service)
+        cls.driver.get('https://medium.com/')
+        cls.driver.fullscreen_window()
+        cls.driver.implicitly_wait(IMPLICITLY_WAIT)
+
+    def test_check_title(self):
+        actual_title = self.get_page_title('https://medium.com/')
+        expected_title = 'Medium – Where good ideas find you.'
+        self.assertEqual(actual_title, expected_title)
+
+    def get_page_title(self, url):
+        self.driver.get(url)
+        return self.driver.title
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.driver.quit()
