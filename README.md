@@ -88,3 +88,20 @@ Almost ... :construction_worker:
 * h5.MuiTypography-h5
 
 * //*[@id="__next"]/form/div/div[1]/h5
+
+# **Task 3** 
+**Pierszy test automatyczny**
+
+To zadanie miało na celu:
+
+:white_square_button: zapoznanie się z biblioteką Selenium,
+
+:white_square_button: klikanie w elementy na stronie,
+
+:white_square_button: wypełnianie pól tekstem,
+
+:white_square_button: wykorzystanie asercji assert title,
+
+:white_square_button: uruchomienie testu.
+
+*Zapraszam do zapoznania się z plikami z kodem* 😄
