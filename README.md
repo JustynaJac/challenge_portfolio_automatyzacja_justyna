@@ -107,6 +107,7 @@ To zadanie miało na celu:
 *Zapraszam do zapoznania się z plikami z kodem* 😄
 
 # **Task 4** 
-**Testy automatyczne dla sytomy: [Scouts-test](https://scouts-test.futbolkolektyw.pl/en/login?redirected=true)**
-[Link do google dysk]((https://drive.google.com/drive/folders/1WIPPOjHHXA0GYEZqHe42WV6CEb4Lzg5A)https://drive.google.com/drive/folders/1WIPPOjHHXA0GYEZqHe42WV6CEb4Lzg5A)
+**Testy automatyczne dla strony: [Scouts-test](https://scouts-test.futbolkolektyw.pl/en/login?redirected=true)**
+
+[Link do google dysk](https://drive.google.com/drive/folders/1WIPPOjHHXA0GYEZqHe42WV6CEb4Lzg5A)
 
