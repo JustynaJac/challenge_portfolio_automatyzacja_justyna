@@ -117,3 +117,7 @@ To zadanie miało na celu:
 
 [Link do repozytorium](https://github.com/JustynaJac/challenge_portfolio_robotframework)
 
+# **Task 6**
+**Zgłaszanie błędów i raport z testów dla strony: [Scouts-dareit](https://dareit.futbolkolektyw.pl/)**
+
+[Link do raportu z testów](https://docs.google.com/document/d/1LW4kRAuhuM7b5l5VOYgGKjpQa5ktohEgNtEOkG-Quwc)
